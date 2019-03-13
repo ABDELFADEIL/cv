@@ -11,9 +11,9 @@ body {
     /* font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif; */
     font-family:'EB Garamond', serif;
     font-size: 16px;
-    background: rgba(84, 77, 90, 0.5);
+    background: rgba(221, 215, 226, 0.5);
     /* border: 0.5px solid rgb(189, 171, 202); */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 25px;
    
 }
@@ -34,10 +34,12 @@ body {
   }
 
 .navbar {
+    border-bottom: 2px solid rgb(112, 94, 129); 
+    background: rgba(159, 156, 161, .50) !important;
     
 }
 p {
-    color: white;
+    color: rgb(37, 23, 23);
     font-size: 18px;
 }
 .violet {
