@@ -35,11 +35,26 @@ body {
 
 .navbar {
     border-bottom: 2px solid rgb(112, 94, 129); 
-    background: rgba(159, 156, 161, .50) !important;
+    background: rgba(159, 156, 161, .50) !important; 
+  
     
 }
+footer .navbar {
+    border: none;
+    border-top: 2px solid rgb(112, 94, 129); 
+    background: rgba(159, 156, 161, .50) !important;
+    min-height: 100px;
+    
+}
+footer img {
+    width: 25px;
+    height: 25px;
+}
+footer .navbar ul li {
+    padding-left: 30px;
+}
 p {
-    color: rgb(37, 23, 23);
+    color: blue;
     font-size: 18px;
 }
 .violet {
